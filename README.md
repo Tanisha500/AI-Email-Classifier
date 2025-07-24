@@ -2,6 +2,7 @@
 
 A smart Streamlit-based AI application that connects to your Gmail account, fetches unread emails, and classifies them into categories (e.g., Important, Personal, Spam) using Hugging Face Transformers' zero-shot learning.
 
+
 ##  Features
 
 -  Secure login using Gmail App Passwords
@@ -10,6 +11,7 @@ A smart Streamlit-based AI application that connects to your Gmail account, fetc
 -  Display subject, predicted label, and confidence score
 -  Clean, user-friendly Streamlit UI
 -  Download classification results as a CSV file
+
 
 
 
@@ -23,14 +25,17 @@ A smart Streamlit-based AI application that connects to your Gmail account, fetc
  Pandas : Display classification table        
 
 
+
 ##  Screenshot
 
 <img width="769" height="871" alt="image" src="https://github.com/user-attachments/assets/3a59a500-cc62-4ccb-8562-5dafac1672f3" />
 
 
+
 ## Screenshot of CSV file 
 
 <img width="993" height="295" alt="image" src="https://github.com/user-attachments/assets/9bd08347-b36b-4fac-a41b-1aed70def258" />
+
 
 ##  Gmail Setup (One-time only)
 
@@ -43,10 +48,12 @@ A smart Streamlit-based AI application that connects to your Gmail account, fetc
    - Choose: `Mail` and your device (e.g., `Windows Computer`)
    - Copy the 16-character password (use this in the app)
 
+
 ## How It Works
 1. Uses imaplib + Gmail App Password to fetch unread emails
 2. Applies facebook/bart-large-mnli for zero-shot classification
 3. Shows output in an interactive Streamlit UI with confidence scores
+
 
 ## Example Categories
 The model automatically classifies into categories like:
@@ -55,14 +62,17 @@ The model automatically classifies into categories like:
 - Spam
 - Newsletter
 - Promotions
+
   
 ## Create a virtual environment 
 python -m venv venv
 venv\Scripts\activate   # for Windows
 
+
 ## Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
+
 
 ## Run the App
 streamlit run app.py
