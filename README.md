@@ -13,15 +13,13 @@ A smart Streamlit-based AI application that connects to your Gmail account, fetc
 -  Download classification results as a CSV file
 
 
-
-
 ##  Tech Stack
 
  Python : Core programming language           
  IMAP (imaplib) : Fetch unread Gmail messages    
- Hugging Face Transformers : Zero-shot classification model 
- PyTorch : Backend for running Hugging Face models 
- Streamlit : Interactive web UI frontend        
+ Hugging Face Transformers : Zero-shot classification model
+ PyTorch : Backend for running Hugging Face models
+ Streamlit : Interactive web UI frontend
  Pandas : Display classification table        
 
 
@@ -29,7 +27,6 @@ A smart Streamlit-based AI application that connects to your Gmail account, fetc
 ##  Screenshot
 
 <img width="769" height="871" alt="image" src="https://github.com/user-attachments/assets/3a59a500-cc62-4ccb-8562-5dafac1672f3" />
-
 
 
 ## Screenshot of CSV file 
