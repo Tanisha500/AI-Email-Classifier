@@ -12,6 +12,7 @@ A smart Streamlit-based AI application that connects to your Gmail account, fetc
 -  Download classification results as a CSV file
 
 
+
 ##  Tech Stack
 
  Python : Core programming language           
@@ -21,7 +22,6 @@ A smart Streamlit-based AI application that connects to your Gmail account, fetc
  Streamlit : Interactive web UI frontend        
  Pandas : Display classification table        
 
----
 
 ##  Screenshot
 
