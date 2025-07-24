@@ -2,6 +2,15 @@
 
 A smart Streamlit-based AI application that connects to your Gmail account, fetches unread emails, and classifies them into categories (e.g., Important, Personal, Spam) using Hugging Face Transformers' zero-shot learning.
 
+##  Tech Stack
+
+- Python : Core programming language           
+- IMAP (imaplib) : Fetch unread Gmail messages
+- Hugging Face Transformers : Zero-shot classification model
+- PyTorch : Backend for running Hugging Face models
+- Streamlit : Interactive web UI frontend
+- Pandas : Display classification table        
+
 
 ##  Features
 
@@ -11,17 +20,6 @@ A smart Streamlit-based AI application that connects to your Gmail account, fetc
 -  Display subject, predicted label, and confidence score
 -  Clean, user-friendly Streamlit UI
 -  Download classification results as a CSV file
-
-
-##  Tech Stack
-
- Python : Core programming language           
- IMAP (imaplib) : Fetch unread Gmail messages    
- Hugging Face Transformers : Zero-shot classification model
- PyTorch : Backend for running Hugging Face models
- Streamlit : Interactive web UI frontend
- Pandas : Display classification table        
-
 
 
 ##  Screenshot
