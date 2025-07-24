@@ -24,7 +24,7 @@ A smart Streamlit-based AI application that connects to your Gmail account, fetc
 
 ##  Screenshot
 
-<img width="769" height="871" alt="image" src="https://github.com/user-attachments/assets/3a59a500-cc62-4ccb-8562-5dafac1672f3" />
+<img width="903" height="872" alt="image" src="https://github.com/user-attachments/assets/ffc6bdbe-5eca-4655-8d07-373a4f112217" />
 
 
 ## Screenshot of CSV file 
